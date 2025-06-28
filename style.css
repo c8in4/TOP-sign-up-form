@@ -1,7 +1,7 @@
 @font-face {
   font-family: typewriter;
   src: url(fonts/momt___-webfont.woff2) format("woff2"),
-  url(fonts/momt___-webfont.woff) format("woff");
+    url(fonts/momt___-webfont.woff) format("woff");
 }
 
 *,
@@ -62,8 +62,8 @@ header a {
 }
 
 header a:hover {
-  /* font-weight: bold;
-  font-size: 1rem; */
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 main {
@@ -88,7 +88,7 @@ form {
 
 .top p {
   font-size: 1.2rem;
-  line-height: 1.3;
+  line-height: 1.5;
   max-width: 45ch;
 }
 
@@ -101,7 +101,7 @@ form {
 }
 
 .bold-name::before {
-  content: open-quote;  
+  content: open-quote;
 }
 
 .bold-name::after {
@@ -130,7 +130,6 @@ label+label {
 
 label {
   text-transform: uppercase;
-
 }
 
 input {
@@ -174,7 +173,7 @@ button:hover {
   background-color: rgb(199, 120, 23);
 }
 
-.bottom p {
-  font-size: small;
+.bottom small {
+  display: block;
   margin: 1em 0;
 }
